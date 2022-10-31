@@ -22,7 +22,12 @@ const Footer = () => {
       </div>
       {/* adding the end of footer */}
       <div className={style.social}>
-        <button className={style.socialButton}>Contact on Whatsapp</button>
+        <a
+          href="https://wa.me/+923343866227/?text="
+          className={style.socialButton}
+        >
+          Contact on Whatsapp
+        </a>
         <button className={style.socialButton}>Follow on Facebook</button>
       </div>
       {/* adding signature */}
