@@ -5,7 +5,7 @@ import Image from "next/image";
 const style = {
   wrapper: "h-[100vh] w-[100vw] flex flex-col h-[70%]",
   heading:
-    "text-4xl md:text-7xl text-blue-900 my-2 md:my-8 w-full md:w-[60%] text-center md:text-left",
+    "text-4xl md:text-7xl text-blue-900 my-2 md:my-8 w-full md:w-[60%] text-center md:text-left font-bold",
   heading1:
     "text-2xl md:text-5xl text-blue-900 my-3 md:my-8 w-full md:w-[85%] text-center md:text-left",
   smallHeading: "text-xl md:text-3xl text-blue-900 text-center md:text-left mt-3 md:mt-12",
@@ -50,9 +50,9 @@ const Home = ({}) => {
               </h2>
               <h2
                 className={style.heading}
-                style={{ fontFamily: "Poppins, sans-serif" }}
-              >
-                Chaudhary Estate
+                style={{ fontFamily: "Old Standard TT, serif" }}
+                >
+                CH Homes & Developers
               </h2>
               <h2
                 className={style.para}
