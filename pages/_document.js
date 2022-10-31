@@ -8,7 +8,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <title key={"title"}>
-            Fanncart | A market place for handmade products
+            Ch Homes & Developers | HOMES FOR EVERYONE
           </title>
           <meta
             name="viewport"
@@ -16,7 +16,7 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="A website for real estate for online presense"
+            content="HOMES FOR EVERYONE"
           />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
