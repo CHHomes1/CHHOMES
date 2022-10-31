@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+.border-move-animation::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#111827;
+    transition: width 0.3s;
+  }
+  
+  .border-move-animation:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+  
+
+  
+
+/* animation for orange color */
+.border-move-animation-orange::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #fb923c;
+    transition: width 0.3s;
+  }
+  
+  .border-move-animation-orange:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+  
+
+  
+
+
+  .aa{
+    width: 100vw !important;
+    overflow-x: hidden !important;
+   
+  }
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
