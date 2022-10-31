@@ -1,13 +1,14 @@
 import React from "react";
 import Logo from "../UI/Logo";
 import Link from "next/link";
+import Logo1 from '../Logo/Logo'
 const style = {
-  header: "flex items-center justify-center text-gray-900 ",
-  logo: "flex-1",
-  nav: "flex",
-  list: "list-none mx-2 md:mx-6 border-move-animation cursor-pointer text-sm sm:text-lg md:text-lg lg:text-xl text-black",
+  header: "flex items-center justify-center text-blue-900 flex-col md:flex-row",
+  logo: "flex-1 md:mx-4",
+  nav: "flex mb-4 md:my-0",
+  list: "list-none mx-2 md:mx-6 border-move-animation cursor-pointer text-sm sm:text-lg md:text-lg lg:text-xl text-blue-900",
   contact:
-    "text-gray-100 bg-orange-500 transiton duration-[300ms] list-none mx-2 md:mx-6 cursor-pointer  px-3 py-1 text-sm sm:text-lg md:text-lg lg:text-xl",
+    "text-gray-100 bg-blue-600 transiton duration-[300ms] list-none mx-2 md:mx-6 cursor-pointer  px-3 py-1 text-sm sm:text-lg md:text-lg lg:text-xl hover:bg-opacity-[0.9]",
 };
 const Header = () => {
   return (

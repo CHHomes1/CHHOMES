@@ -3,11 +3,11 @@ import axios from "axios";
 const style = {
   wrapper: "",
   smallHeading:
-    "border-b-2 border-stone-900 text-3xl md:text-4xl max-w-fit mx-auto py-2 text-stone-700 my-8 md:my-10 font-bold",
+    "border-b-2 border-blue-900 text-3xl md:text-4xl max-w-fit mx-auto py-2 text-blue-900 my-8 md:my-10 font-bold",
   formContainer: "flex flex-col",
   input:
     "px-3  md:px-4 py-2 md:py-3 placeholder:text-gray-900 ring-none outline-none bg-[#F5F4F4] my-4 w-[90%] md:w-[85%] mx-auto",
-  btn: "text-white bg-opacity-[0.8] hover:bg-opacity-[0.95] transition duration-[300ms] my-6 bg-orange-500 mx-auto px-8 md:px-12 py-2 md:py-3 font-bold tracking-wide",
+  btn: "text-white bg-opacity-[1] hover:bg-opacity-[0.95] transition duration-[300ms] my-6 bg-blue-900 mx-auto px-8 md:px-12 py-2 md:py-3 font-bold tracking-wide",
 };
 
 const ContactForm = () => {
@@ -18,7 +18,7 @@ const ContactForm = () => {
   const [Email, setEmail] = useState("");
   const [Message, setMessage] = useState("");
   const tokenWithWriteAccess =
-    "skcCBItUtJgAVMB47KUJ1jSlusnFrqwt9B97VntAuRxZFps97GT0xEj0oTgXx1iKN6cDlwX4ZblmntN1MBbSmY2IaeJZwZ4qSL7uvtlR007GUgQE9Fb7V9k8q0kx3mcBiSixAz6Icg6m4lsfIsZo8aTS14P4WH3AdeWWdvW23CtVBtH0Y7wy";
+    "skfqrDRCBXtJS0VRzXnv7ncTzVmM8HsgWgo7NvnKnSMKct7tFKMQwWGpYV8qd9nCFuHpWxFvBI0YGmdG1ZnahGorfIEzwMgFKDcMcVQxCKM2q4RBvAOwyIwDmr7qV8IciXuAHaeyFPoNc7QRr4z5y7XG2KWSZD3kNdLnD6kXmI0dJTE49Rxv";
   const nameChangeHandler = (e) => {
     setName(e.target.value);
   };
@@ -34,7 +34,7 @@ const ContactForm = () => {
     const sendData = async () => {
       setIsSubmit(true);
       const { data } = await axios.post(
-        `https://p0ifd5ok.api.sanity.io/v2021-06-07/data/mutate/production?returnIds=true`,
+        `https://i1slpcrm.api.sanity.io/v2021-06-07/data/mutate/production?returnIds=true`,
         {
           mutations: [
             {

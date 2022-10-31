@@ -14,8 +14,8 @@ const PropertiesNavbar = ({handleCategory}) => {
       <li
         className={`w-[50%] text-center ${
           Category == "plots"
-            ? "bg-orange-500 text-white"
-            : "bg-white text-stone-900"
+            ? "bg-blue-600 text-white"
+            : "bg-white text-blue-900"
         } px-3 py-2 md:px-6 md:py-2 decoration-none list-none cursor-pointer hover:scale-[0.9] transition duration-[300ms]`}
         onClick={() => handleCategoryChange("plots")}
       >
@@ -24,8 +24,8 @@ const PropertiesNavbar = ({handleCategory}) => {
       <li
         className={`w-[50%] text-center ${
           Category == "houses"
-            ? "bg-orange-500 text-white"
-            : "bg-white text-stone-900"
+            ? "bg-blue-600 text-white"
+            : "bg-white text-blue-900"
         }  px-3 py-2 md:px-6 md:py-2 decoration-none list-none  cursor-pointer hover:scale-[0.9] transition duration-[300ms]`}
         onClick={() => handleCategoryChange("houses")}
       >
@@ -34,8 +34,8 @@ const PropertiesNavbar = ({handleCategory}) => {
       <li
         className={`w-[50%] text-center ${
           Category == "rent"
-            ? "bg-orange-500 text-white"
-            : "bg-white text-stone-900"
+            ? "bg-blue-600 text-white"
+            : "bg-white text-blue-900"
         }  px-3 py-2 md:px-6 md:py-2 decoration-none list-none  cursor-pointer hover:scale-[0.9] transition duration-[300ms]`}
         onClick={() => handleCategoryChange("rent")}
       >

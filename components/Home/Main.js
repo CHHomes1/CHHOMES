@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Clients from "./Clients/Clients";
+import client from "../../pages/api/client";
 import Newsletter from "./Newsletter/Newsletter";
 import WhoWeAre from "./WhoWeAre/WhoWeAre";
 import Info from "./Info/Info";
@@ -13,7 +14,16 @@ import { ParallaxProvider } from "react-scroll-parallax";
 const style = {
   main: "overflow-x-hidden",
 };
-const Main = ({featuredData}) => {
+const Main = () => {
+  const [FeaturedData, setFeaturedData] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const p = await client.fetch(`*[_type == "featured"]`);
+      setFeaturedData(p);
+    };
+    fetchData();
+  }, []);
+  // console.log(FeaturedData)
   return (
     <div className={style.main}>
       <ParallaxProvider>
@@ -21,7 +31,7 @@ const Main = ({featuredData}) => {
         <Info />
         <Card />
       </ParallaxProvider>
-      <Featured featuredData={featuredData} />
+      {FeaturedData.length > 0 && <Featured featuredData={FeaturedData} />}
       <Clients />
       <Newsletter />
       {/* <Footer /> */}

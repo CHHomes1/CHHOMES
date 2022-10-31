@@ -5,8 +5,8 @@ const style = {
   side1: "w-full md:w-[45%] h-full mx-auto",
   side2: "w-full md:w-[45%] flex items-center justify-center mx-auto hidden md:flex",
   heading:
-    "font-bold text-5xl sm:text-6xl md:text-5xl lg:text-5xl my-8 text-stone-700",
-  details: "text-stone-800 py-3 ",
+    "font-bold text-5xl sm:text-6xl md:text-5xl lg:text-5xl my-8 text-blue-900",
+  details: "text-blue-900 py-3 ",
   divider: "border-b-[1px] border-gray-200 p-2",
   coutnerContainer: "",
   signature:

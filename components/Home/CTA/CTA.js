@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 const style = {
-  cta: "bg-stone-900 flex justify-around items-center mx-auto text-gray-200 p-1",
+  cta: "bg-[#090333] flex justify-around items-center mx-auto text-gray-200 p-1",
   number: "font-semibold text-xs sm:text-xs md:text-sm lg:text-xs",
   email: "font-semibold text-xs sm:text-xs md:text-sm lg:text-xs",
   ctaContainer: "flex items-center justify-center",

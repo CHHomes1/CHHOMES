@@ -1,13 +1,16 @@
 import React from "react";
 import About from "../../components/About/About";
+import Animator from "../../components/UI/Animator";
 const style = {
   wrapper: "",
 };
 const index = () => {
   return (
-    <div className={style.wrapper}>
-       <About />
-    </div>
+    <Animator>
+      <div className={style.wrapper}>
+        <About />
+      </div>
+    </Animator>
   );
 };
 

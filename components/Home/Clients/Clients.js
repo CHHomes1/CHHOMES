@@ -2,10 +2,10 @@ import React from "react";
 import SingleClient from "./SingleClient";
 
 const style = {
-  clients: "bg-stone-900 w-[100vw] overflow-x-hidden p-12",
+  clients: "bg-[#090333] w-[100vw] overflow-x-hidden p-12",
   container: "flex flex-wrap md:no-wrap gap-4 justify-around",
   heading:
-    "text-stone-500 text-3xl sm:text-3xl md:text-2xl lg:text-3xl mx-auto text-center md:text-left",
+    "text-blue-200  text-3xl sm:text-3xl md:text-2xl lg:text-3xl mx-auto text-center md:text-left",
 };
 const Clients = () => {
   return (
