@@ -46,7 +46,7 @@ const PropertiesGrid = ({
     >
       {DataToBeUsed.length > 0 ? (
         DataToBeUsed.map((single) => (
-          <div className={style.singleProperty}>
+          <div className={style.singleProperty} key={single.name}>
             {/* the image of the property */}
             <Image
               src={urlForThumbnail(single.image)}
