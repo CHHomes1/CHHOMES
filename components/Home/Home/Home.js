@@ -3,7 +3,7 @@ import Link from "next/link";
 import useWindowSize from "../../../hooks/windowSize";
 import Image from "next/image";
 const style = {
-  wrapper: "h-[100vh] w-[100vw] flex flex-col h-[70%]",
+  wrapper: "h-[74vh] md:h-[70vh] w-[100vw] flex flex-col h-[70%]",
   heading:
     "text-4xl md:text-7xl text-blue-900 my-2 md:my-8 w-full md:w-[60%] text-center md:text-left font-bold",
   heading1:
@@ -58,7 +58,7 @@ const Home = ({}) => {
                 className={style.para}
                 style={{ fontFamily: "Poppins, sans-serif" }}
               >
-                Our estate deals in all kind of properties including buy and sell of plots/houses or rent
+                Our estate deals in all kind of properties including selling plots on easy installments, buy/sell of houses and rent.
               </h2>
               <Link href="/properties">
                 <button

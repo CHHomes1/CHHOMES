@@ -29,16 +29,18 @@ const PropertiesGrid = ({
   const [DataToBeUsed, setDataToBeUsed] = useState([]);
   useEffect(() => {
     if (selectedcategory == "plots") {
+
       setDataToBeUsed(plotsData);
     }
     if (selectedcategory == "houses") {
+
       setDataToBeUsed(housesData);
     }
     if (selectedcategory == "rent") {
       setDataToBeUsed(rentData);
     }
   }, [plotsData, rentData, housesData, selectedcategory]);
-  console.log(selectedcategory);
+  // console.log(selectedcategory);
   return (
     <Animator1
       // className={style.wrapper}

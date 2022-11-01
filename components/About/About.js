@@ -24,7 +24,7 @@ const About = () => {
             className={style.heading}
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
-            Our estate deals in all kind of properties including buy and sell of plots/houses or rent
+                Our estate deals in all kind of properties including selling plots on easy installments, buy/sell of houses and rent.
           </h2>
           <p
             className={style.details}

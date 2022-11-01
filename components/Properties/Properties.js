@@ -18,6 +18,9 @@ const Properties = () => {
   useEffect(() => {
     const fetchData = async () => {
       const p = await client.fetch(`*[_type == "plots"]`);
+      p.sort((a, b) => {
+        return a.id - b.id;
+      });
       setplotsData(p);
     };
     fetchData();
@@ -25,6 +28,9 @@ const Properties = () => {
   useEffect(() => {
     const fetchData = async () => {
       const p = await client.fetch(`*[_type == "houses"]`);
+      p.sort((a, b) => {
+        return a.id - b.id;
+      });
       sethousesData(p);
     };
     fetchData();
@@ -32,6 +38,9 @@ const Properties = () => {
   useEffect(() => {
     const fetchData = async () => {
       const p = await client.fetch(`*[_type == "rent"]`);
+      p.sort((a, b) => {
+        return a.id - b.id;
+      });
       setrentData(p);
     };
     fetchData();

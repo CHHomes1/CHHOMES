@@ -1,13 +1,14 @@
 import React from "react";
-
+import Link from "next/link";
 const style = {
-  logo: "flex flex-col justify-center mb-8 items-center md:items-start",
+  logo: "flex flex-col justify-center mb-8 items-center md:items-start cursor-pointer",
   logoImg: "w-[10vw] h-[3vh] md:w-[5vw] md:h-[8vh]",
   // logoImg: "w-[]",
 };
 const Logo = () => {
   return (
-    <div
+    <Link
+      href="/"
       className={style.logo}
       style={{ fontFamily: "Old Standard TT, serif" }}
     >
@@ -16,7 +17,7 @@ const Logo = () => {
         CH Homes <span className="italic">&</span> Developers
       </h2>
       <h2 className="text-[8px] md:text-xs">HOME FOR EVERYONE</h2>
-    </div>
+    </Link>
   );
 };
 
