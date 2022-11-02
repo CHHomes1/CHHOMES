@@ -12,7 +12,7 @@ const PropertiesNavbar = ({handleCategory}) => {
   return (
     <div className={style.wrapper}>
       <li
-        className={`w-[50%] text-center ${
+        className={`w-[50%] text-center border-2 border-blue-600 ${
           Category == "plots"
             ? "bg-blue-600 text-white"
             : "bg-white text-blue-900"
@@ -22,7 +22,7 @@ const PropertiesNavbar = ({handleCategory}) => {
         PLOTS
       </li>
       <li
-        className={`w-[50%] text-center ${
+        className={`w-[50%] text-center border-2 border-blue-600 ${
           Category == "houses"
             ? "bg-blue-600 text-white"
             : "bg-white text-blue-900"
@@ -32,7 +32,7 @@ const PropertiesNavbar = ({handleCategory}) => {
         HOUSES
       </li>
       <li
-        className={`w-[50%] text-center ${
+        className={`w-[50%] text-center border-2 border-blue-600 ${
           Category == "rent"
             ? "bg-blue-600 text-white"
             : "bg-white text-blue-900"

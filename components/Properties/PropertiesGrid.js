@@ -7,7 +7,7 @@ import Animator1 from "../UI/Animator1";
 const style = {
   wrapper: "flex flex-col w-[95%] md:w-[80%] my-2",
   singleProperty:
-    "flex flex-col md:flex-row items-center my-6 md:my-8 bg-[#090333] px-6 md:px-8 py-8 rounded-lg",
+    "flex flex-col md:flex-row items-center my-6 md:my-8 bg-[#090333] px-6 md:px-8 py-8 rounded-lg ",
   propertyContainer: " ml-0 md:ml-12",
   name: "text-3xl md:text-3xl font-bold text-blue-100 text-center md:text-left my-3",
   specification: "flex flex-wrap",
