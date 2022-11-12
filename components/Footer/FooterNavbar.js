@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 const style = {
-  footerNavbarContainer: "",
+  footerNavbarContainer: "md:ml-12",
   listContainer: "flex flex-col md:flex-row",
   oneNavItem:
     "border-move-animation-orange cursor-pointer mx-4 text-blue-600 tracking-normal hover:border-opacity-[0.5] transition duration-[400ms] text-center my-1 md:my-3",

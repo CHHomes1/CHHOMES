@@ -32,7 +32,7 @@ const Main = () => {
         <Card />
       </ParallaxProvider>
       {FeaturedData.length > 0 && <Featured featuredData={FeaturedData} />}
-      <Clients />
+      {/* <Clients /> */}
       <Newsletter />
       {/* <Footer /> */}
     </div>

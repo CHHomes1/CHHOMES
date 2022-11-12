@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 const style = {
-  logo: "flex flex-col justify-center mb-8 items-center md:items-start cursor-pointer",
-  logoImg: "w-[10vw] h-[3vh] md:w-[5vw] md:h-[8vh]",
+  logo: "flex flex-col justify-center mb-0 items-center md:items-start cursor-pointer",
+  logoImg: "w-[10vw] h-[3vh] md:w-[8vw] md:h-[12vh]",
   // logoImg: "w-[]",
 };
 const Logo = () => {

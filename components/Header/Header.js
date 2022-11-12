@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../UI/Logo";
 import Link from "next/link";
-import Logo1 from '../Logo/Logo'
+import Logo1 from "../Logo/Logo";
 const style = {
   header: "flex items-center justify-center text-blue-900 flex-col md:flex-row",
   logo: "flex-1 md:mx-4",
@@ -12,10 +12,7 @@ const style = {
 };
 const Header = () => {
   return (
-    <div
-      className={style.header}
-      
-    >
+    <div className={style.header}>
       {/* adding the logo */}
       <div className={style.logo}>
         <Logo />

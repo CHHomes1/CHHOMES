@@ -3,12 +3,12 @@ import Link from "next/link";
 import useWindowSize from "../../../hooks/windowSize";
 import Image from "next/image";
 const style = {
-  wrapper: "h-[74vh] md:h-[70vh] w-[100vw] flex flex-col h-[70%]",
+  wrapper: "h-[80vh] md:h-[80vh] w-[100vw]",
   heading:
-    "text-4xl md:text-7xl text-blue-900 my-2 md:my-8 w-full md:w-[60%] text-center md:text-left font-bold",
+    "text-4xl md:text-7xl text-blue-900 my-2 md:my-1 w-full md:w-[60%] text-center md:text-left font-bold",
   heading1:
     "text-2xl md:text-5xl text-blue-900 my-3 md:my-8 w-full md:w-[85%] text-center md:text-left",
-  smallHeading: "text-xl md:text-3xl text-blue-900 text-center md:text-left mt-3 md:mt-12",
+  smallHeading: "text-xl md:text-4xl text-blue-900 text-center md:text-left mt-3 md:mt-1 mb-1 md:mb-6",
   para: "text-blue-900 text-md md:text-md lg:text-md my-3 md:my-8 text-center md:text-left",
   para1:
     "text-blue-900 text-sm md:text-lg my-3 md:my-4 w-[70%] text-center md:text-left",
@@ -18,7 +18,7 @@ const style = {
     "text-blue-900  my-4 md:mb-5 w-[70%] font-thin text-xs text-center md:text-left",
   btn: "px-4 md:px-5 py-2 md:py-2  transition duration-[300ms] hover:scale-[0.98]  mx-auto md:mx-0 text-white bg-blue-600",
   right:
-    "flex flex-col my-0 md:my-36 lg:my-36 px-4 md:mt-12 md:mt-2 md:ml-12 items-center md:items-start",
+    "flex flex-col my-0 md:my-24 lg:my-24 px-4 md:mt-12 md:mt-2 md:ml-12 items-center md:items-start",
   main1: "flex flex-col md:flex-row mx-auto w-[100%]",
   left: "flex items-center justify-center",
   left1: "flex items-center justify-center scale-[0.8]",

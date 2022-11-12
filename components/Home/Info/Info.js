@@ -25,7 +25,7 @@ const Info = () => {
     background-position: center;
     background-attachment: auto;
     width: 100vw;
-    height: 70vh;
+    height: ${View>600?'50vh':"70vh"};
   `;
   return (
     <InfoBackground className={style.info}>
