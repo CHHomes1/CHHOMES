@@ -13,14 +13,14 @@ const CTA = () => {
     <div className={style.cta}>
       <div className={style.ctaContainer}>
         <AiOutlinePhone className="text-xl mx-2" />
-        <a href="https://wa.me/+923343866227/?text=" className={style.number}>
-          (000)111 222 1
+        <a href="https://wa.me/+923218420666/?text=" className={style.number}>
+          0321-8420666
         </a>
       </div>
       <div className={style.ctaContainer}>
         <AiOutlineMail className=" text-xl mx-2" />
-        <a className={style.email} href="mailto:shariqueimam7777@gmail.com">
-          info@talhamalik.com
+        <a className={style.email} href="mailto:chhomes07@gmail.com">
+          chhomes07@gmail.com
         </a>
       </div>
     </div>

@@ -23,7 +23,7 @@ const Footer = () => {
       {/* adding the end of footer */}
       <div className={style.social}>
         <a
-          href="https://wa.me/+923343866227/?text="
+          href="https://wa.me/+923218420666/?text="
           className={style.socialButton}
         >
           Contact on Whatsapp

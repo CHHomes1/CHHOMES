@@ -24,7 +24,8 @@ const style = {
   btn1: "text-md p-1 tracking-wide ",
   decription: "mx-3 text-xs font-normal my-3",
   specification: "flex flex-wrap",
-  singleSpecification: "bg-blue-600 mx-1 md:mx-3 px-2 md:px-3 py-1 text-xs md:text-sm my-1 bg-opacity-[0.5]",
+  singleSpecification:
+    "bg-blue-600 mx-1 md:mx-3 px-2 md:px-3 py-1 text-xs md:text-sm my-1 bg-opacity-[0.5]",
 };
 export const SingleFeatured1 = ({ featuredData1 }) => {
   const [View, setView] = useState(0);
@@ -71,7 +72,7 @@ export const SingleFeatured1 = ({ featuredData1 }) => {
       <p className={style.decription}>{description1}</p>
       <div className={style.price}>Rs.{price}</div>
       <a
-        href="https://wa.me/+923343866227/?text="
+        href="https://wa.me/+923218420666/?text="
         className={style.contactContainer}
         style={{ fontFamily: "Old Standard TT, serif" }}
       >
