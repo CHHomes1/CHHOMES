@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import PropertiesNavbar from "./PropertiesNavbar";
 import PropertiesGrid from "./PropertiesGrid";
 import client from "../../pages/api/client";
-import PropertiesFilter from "./PropertiesFilter";
+// import PropertiesFilter from "./PropertiesFilter";
 const style = {
   wrapper: "flex flex-col items-center",
   mainHeading:
