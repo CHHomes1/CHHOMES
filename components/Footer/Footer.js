@@ -28,7 +28,9 @@ const Footer = () => {
         >
           Contact on Whatsapp
         </a>
-        <button className={style.socialButton}>Follow on Facebook</button>
+        <a href="https://www.facebook.com/asif.jutt.5437">
+          <button className={style.socialButton}>Follow on Facebook</button>
+        </a>
       </div>
       {/* adding signature */}
       <div className={style.signature}>
