@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className={style.footer}>
       <div className={style.footerInfo}>
-        {/* adding the logo  */}
+        {/* adding the logo */}
         <FooterLogo />
         {/* adding the footer navar */}
         <FooterNavbar />

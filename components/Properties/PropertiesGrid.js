@@ -46,6 +46,9 @@ const PropertiesGrid = ({
     setMax(e.target.value);
   };
   useEffect(() => {
+    setIsClick(false)
+    setMin('')
+    setMax('')
     if (selectedcategory == "plots") {
       setDataToBeUsed(plotsData);
     }
