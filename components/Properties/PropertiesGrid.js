@@ -24,7 +24,8 @@ const style = {
   input:
     "bg-blue-50 px-2 md:px-3 py-1 outline-none rounded w-[80vw] md:w-[25vw]",
   label: "text-blue-900 text-xl md:text-lg",
-  btn: "bg-blue-600 text-white px-6 md:px-8 py-2 md:py-3 hover:bg-opacity-[0.92] transition duration-[300ms]",
+  btn: "bg-blue-600 text-white px-6 md:px-8 py-2 md:py-3 hover:bg-opacity-[0.92] transition duration-[300ms] mx-4 my-2",
+  btnContainer: "flex",
 };
 const PropertiesGrid = ({
   plotsData,
@@ -46,9 +47,9 @@ const PropertiesGrid = ({
     setMax(e.target.value);
   };
   useEffect(() => {
-    setIsClick(false)
-    setMin('')
-    setMax('')
+    setIsClick(false);
+    setMin("");
+    setMax("");
     if (selectedcategory == "plots") {
       setDataToBeUsed(plotsData);
     }
@@ -61,7 +62,12 @@ const PropertiesGrid = ({
   }, [plotsData, rentData, housesData, selectedcategory]);
 
   // console.log(selectedcategory);
-  const handleClick = () => {
+  const handleClearFilter = () => {
+    setIsClick(false);
+    setMin("");
+    setMax("");
+  };
+  const handleFilterClick = () => {
     setIsClick(true);
     if (selectedcategory == "plots") {
       // parseFloat('100,000.00'.replace(/,/g, ''))
@@ -135,9 +141,14 @@ const PropertiesGrid = ({
             id="max"
           />
         </div>
-        <button onClick={() => handleClick()} className={style.btn}>
-          Apply Filter
-        </button>
+        <div className={style.btnContainer}>
+          <button onClick={() => handleFilterClick()} className={style.btn}>
+            Apply Filter
+          </button>
+          <button onClick={() => handleClearFilter()} className={style.btn}>
+            Clear Filter
+          </button>
+        </div>
       </div>
       {IsClick ? (
         NewData.length > 0 ? (
